@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.UserMainPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.UserDataContent{
+    display: flex;
+    flex-direction: row;
+    width: 998px;
+    height: 495px;
+    background-color: #FDFDFD;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin: auto;
+    margin-top: 100px;
+    gap:25px;
+    overflow-y: scroll;
+    /* border-radius: 10px;
+    border: solid 1px gray; */
+}
+
+.UserDataTable, .UserDataGraph{
+    width: 50%;
+    /* border-radius: 10px;
+    border: solid 1px gray; */
+}
+
+/* DataTable Styling */
+.dataTable{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 30px;
+    font-family: Work Sans;
+    height: 400px;
+}
+
+.dataTable div{
+    text-align: left;
+    font-size: 20px;
+}
+
+.dataTable h3{
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.dataGraph h3{
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.dataGraph{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    font-family: Work Sans;
+    text-align: center;
+    height: 400px;
+}
